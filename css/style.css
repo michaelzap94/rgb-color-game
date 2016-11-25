@@ -1,0 +1,67 @@
+  body {
+    background: #232323;
+    margin: 0;
+  }
+  
+  .allSq {
+    /* width: 4em;
+            height: 4em;*/
+    width: 30%;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 10%;
+    transition: background 0.6s;
+  }
+  
+  #myContainer {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  #eventMessage {
+    width: 25%;
+    display: inline-block;
+    font-family: Raleway;
+    font-size: large;
+    text-transform: uppercase;
+  }
+  
+  button {
+    font-family: Raleway;
+    font-size: large;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: steelblue;
+    border: none;
+    background: white;
+    transition: all 0.3s;
+    height: 100%;
+    text-space: 2px;
+  }
+  
+  button:hover {
+    color: white;
+    background: steelblue;
+  }
+  
+  .mySelected {
+    color: white;
+    background: steelblue;
+  }
+  
+  #header {
+    margin: 0;
+    background: steelblue;
+    text-align: center;
+    color: white;
+    font-family: Raleway;
+    font-weight: 800;
+  }
+  
+  #secondNav {
+    margin: 0;
+    background: white;
+    height: 30px;
+    text-align: center;
+  }
